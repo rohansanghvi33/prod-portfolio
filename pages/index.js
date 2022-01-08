@@ -15,7 +15,7 @@ export default function Home() {
 
 
 
-      <div className="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-12 scale-125">
+      <div className="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-12">
 
         <div className="col-span-2 bg-gray-800 rounded animate-pulse"></div>
         <div className="col-span-5 bg-gray-800 rounded animate-pulse"></div>
