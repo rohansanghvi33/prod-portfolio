@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="Autho" content="Rohan Sanghvi" />
         <link rel="icon" href="/folio.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7419812829956855"
-        crossorigin="anonymous"></script>
+        crossOrigin="anonymous"></script>
       </Head>
 
 
