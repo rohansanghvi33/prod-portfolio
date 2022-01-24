@@ -99,7 +99,7 @@ export default function Home() {
             Hi I am Rohan Sanghvi !
           </h1>
           <p className="font-serif text-sm font-bold italic pb-6 overflow-hidden whitespace-nowrap animate-bounce">
-            &lt;Back-End developer &#38;&#38; ! Front-End developer&gt;
+            &lt;Back-End developer &#38;&#38; NOT Front-End developer&gt;
           </p>
         </div>
 
