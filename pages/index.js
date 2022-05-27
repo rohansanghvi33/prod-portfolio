@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 import { Tweet } from 'react-twitter-widgets'
 
@@ -13,7 +14,23 @@ export default function Home() {
         <link rel="icon" href="/folio.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7419812829956855"
         crossOrigin="anonymous"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBM81R1SE7"></script>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BBM81R1SE7"
+                strategy = "lazyOnload"
+        />
+        <Script id="google-analytics" strategy="lazyOnload">
+          {`
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-BBM81R1SE7');
+          
+          
+          
+          `}
+        </Script>  
+        
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)}
