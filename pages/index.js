@@ -13,8 +13,17 @@ export default function Home() {
         <meta name="Autho" content="Rohan Sanghvi" />
         <link rel="icon" href="/folio.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7419812829956855"
-        crossOrigin="anonymous"></script>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BBM81R1SE7"
+        crossOrigin="anonymous"></script>  
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-BBM81R1SE7');
+        </script>
+      </Head>
+
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-BBM81R1SE7"
                 strategy = "lazyOnload"
         />
         <Script id="google-analytics" strategy="lazyOnload">
@@ -29,16 +38,7 @@ export default function Home() {
           
           
           `}
-        </Script>  
-        
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-BBM81R1SE7');
-        </script>
-      </Head>
+        </Script>
 
 
 
