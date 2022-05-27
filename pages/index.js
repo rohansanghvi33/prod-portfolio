@@ -16,7 +16,7 @@ export default function Home() {
         crossOrigin="anonymous"></script>
       </Head>
 
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-BBM81R1SE7"
+      <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                 strategy = "lazyOnload"
         />
         <Script id="google-analytics" strategy="lazyOnload">
@@ -26,7 +26,7 @@ export default function Home() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-BBM81R1SE7');
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
           
           
           
